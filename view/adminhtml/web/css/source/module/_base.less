@@ -1,0 +1,85 @@
+/**
+ * Roman Yurkhanov
+ *
+ * Email :: ferrumdp@gmail.com
+ * Linkedin :: https://www.linkedin.com/in/roman-yurkhanov-322035122/
+ *
+ * Copyright 2023-present Roman Yurkhanov. All rights reserved.
+ * See license.txt for license details.
+ */
+
+.config-nav-block.romanyurkhanov-configtab {
+    strong {
+        position: relative;
+
+        &:before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 12px;
+            background: #1ade18;
+            border-radius: 50%;
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            top: 1px;
+            left: -4px;
+            width: 20px;
+            height: 20px;
+            background-color: rgba(26,222,24,.5);
+            border-radius: 100%;
+            animation: pulseCustom 2.5s cubic-bezier(.19,1,.22,1) infinite both;
+            will-change: transform;
+        }
+    }
+
+    .admin__page-nav-item {
+        &.item-icon-tab {
+            a {
+                padding-left: 50px;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 10px;
+                    transform: translateY(-50%);
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 30px;
+                    height: 30px;
+                    background: transparent;
+                }
+            }
+
+            &.frontend {
+                a {
+                    &:before {
+                        background: transparent url('@{baseDir}RomanYurkhanov_Base/images/icons/frontend.svg') center / cover no-repeat;
+                    }
+                }
+            }
+
+            &.checkout {
+                a {
+                    &:before {
+                        background: transparent url('@{baseDir}RomanYurkhanov_Base/images/icons/checkout.svg') center / cover no-repeat;
+                    }
+                }
+            }
+        }
+    }
+}
+@keyframes pulseCustom {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}

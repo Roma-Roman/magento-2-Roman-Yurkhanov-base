@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+    /**
+    * Roman Yurkhanov
+    *
+    * Email :: ferrumdp@gmail.com
+    * Linkedin :: https://www.linkedin.com/in/roman-yurkhanov-322035122/
+    *
+    * Copyright 2023-present Roman Yurkhanov. All rights reserved.
+    * See license.txt for license details.
+    */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="romanyurkhanov" sortOrder="8" translate="label" class="romanyurkhanov-configtab">
+            <label>Roman Yurkhanov</label>
+        </tab>
+    </system>
+</config>

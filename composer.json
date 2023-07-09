@@ -1,0 +1,25 @@
+{
+  "name": "romanyurkhanov/module-base",
+  "description": "RomanYurkhanov Base module for Magento 2. All RomanYurkhanov modules requires this module.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "authors": [
+    {
+      "name": "Roman Yurkhanov",
+      "email": "ferrumdp@gmail.com",
+      "homepage": "https://www.linkedin.com/in/roman-yurkhanov-322035122/",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "RomanYurkhanov\\Base\\": ""
+    }
+  }
+}
