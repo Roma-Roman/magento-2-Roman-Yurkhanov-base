@@ -38,7 +38,7 @@ php bin/magento setup:di:compile
 
 If you don't want to install via composer, you can use this way. 
 
-- Download 
+- Download [the latest version here](https://github.com/Roma-Roman/magento-2-Roman-Yurkhanov-base/archive/main.zip)
 - Extract `main.zip` file to `app/code/RomanYurkhanov/Base` ; You should create a folder path `app/code/RomanYurkhanov/Base` if not exist.
 - Go to Magento root folder and run upgrade command line to install `RomanYurkhanov_Base`:
 
