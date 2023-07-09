@@ -1,6 +1,9 @@
 # RomanYurkhanov Base for Magento 2
 #### RomanYurkhanov Base module for Magento 2. All RomanYurkhanov modules requires this module.
 
+[![Latest Stable Version](http://poser.pugx.org/romanyurkhanov/module-base/v)](https://packagist.org/packages/romanyurkhanov/module-base)
+[![Total Downloads](http://poser.pugx.org/romanyurkhanov/module-base/downloads)](https://packagist.org/packages/romanyurkhanov/module-base)
+
 ## How to install & upgrade RomanYurkhanov_Base
 
 ### 1. Install via composer (recommend)
