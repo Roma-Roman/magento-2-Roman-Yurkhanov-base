@@ -8,7 +8,7 @@
 
 ### 1. Install via composer (recommend)
 
-I recommend you to install RomanYurkhanov_Base module via composer. It is easy to install, update and maintaince.
+I recommend you to install RomanYurkhanov_Base module via composer. It is easy to install, update and maintenance.
 
 Run the following command in Magento 2 root folder.
 
