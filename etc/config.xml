@@ -14,7 +14,18 @@
     <default>
         <romanyurkhanov_base>
             <general>
-                <enabled>1</enabled>
+                <information>
+                    <![CDATA[
+                        <h2><b>Roman Yurkhanov Base module for Magento 2</b></h2>
+                        <sub><b>* All Roman Yurkhanov modules requires this module.</b></sub><br /><br /><br />
+                        Please take a look at my other modules: <br />
+                        <ul>
+                            <li><a href="https://github.com/Roma-Roman/magento-2-Roman-Yurkhanov-modal" title="RomanYurkhanov Modal for Magento 2" target="_blank"><b>RomanYurkhanov Modal for Magento 2</b></a></li>
+                        </ul>
+                        <br />
+                        For more info - <a href="https://www.linkedin.com/in/roman-yurkhanov-322035122/" title="contact the author" target="_blank">contact the author</a><br /><br />
+                    ]]>
+                </information>
             </general>
         </romanyurkhanov_base>
     </default>

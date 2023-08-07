@@ -17,7 +17,11 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="RomanYurkhanov_Base::configuration" title="Base Setting" sortOrder="100"/>
+                            <resource id="RomanYurkhanov_Base::menu" title="Base Setting" translate="title" sortOrder="51">
+                                <resource id="RomanYurkhanov_Base::configuration" title="Base Module Configuration" translate="title" sortOrder="10" >
+                                    <resource id="RomanYurkhanov_Base::configuration_item" title="Base Module Configuration Item" translate="title" sortOrder="20" />
+                                </resource>
+                            </resource>
                         </resource>
                     </resource>
                 </resource>

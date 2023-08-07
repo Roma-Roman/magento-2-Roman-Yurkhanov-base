@@ -55,6 +55,14 @@
                 }
             }
 
+            &.information {
+                a {
+                    &:before {
+                        background: transparent url('@{baseDir}RomanYurkhanov_Base/images/icons/information.svg') center / cover no-repeat;
+                    }
+                }
+            }
+
             &.frontend {
                 a {
                     &:before {
@@ -81,5 +89,11 @@
     100% {
         transform: scale(1.5);
         opacity: 0;
+    }
+}
+#row_romanyurkhanov_general_information {
+    h2 {
+        color: #303030;
+        margin-bottom: 0;
     }
 }

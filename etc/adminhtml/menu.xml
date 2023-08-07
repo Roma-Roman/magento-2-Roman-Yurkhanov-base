@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+    /**
+    * Roman Yurkhanov
+    *
+    * Email :: ferrumdp@gmail.com
+    * Linkedin :: https://www.linkedin.com/in/roman-yurkhanov-322035122/
+    *
+    * Copyright 2023-present Roman Yurkhanov. All rights reserved.
+    * See license.txt for license details.
+    */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="RomanYurkhanov_Base::menu" title="Roman Yurkhanov" translate="title" module="RomanYurkhanov_Base" sortOrder="51" resource="RomanYurkhanov_Base::menu"/>
+        <add id="RomanYurkhanov_Base::configuration" title="Base" translate="title" module="RomanYurkhanov_Base" sortOrder="10" resource="RomanYurkhanov_Base::configuration" parent="RomanYurkhanov_Base::menu"/>
+        <add id="RomanYurkhanov_Base::configuration_item" title="Information" translate="title" module="RomanYurkhanov_Base" sortOrder="20" action="adminhtml/system_config/edit/section/romanyurkhanov_base" resource="RomanYurkhanov_Base::configuration_item" parent="RomanYurkhanov_Base::configuration"/>
+    </menu>
+</config>

@@ -15,5 +15,29 @@
         <tab id="romanyurkhanov" sortOrder="8" translate="label" class="romanyurkhanov-configtab">
             <label>Roman Yurkhanov</label>
         </tab>
+        <section id="romanyurkhanov" translate="label" type="text" sortOrder="320" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Base - Information</label>
+            <tab>romanyurkhanov</tab>
+            <class>item-icon-tab information</class>
+            <resource>RomanYurkhanov_Base::configuration</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                <label>General</label>
+                <field id="information" translate="label comment" type="label" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Information</label>
+                    <comment>
+                        <![CDATA[
+                            <h2><b>Roman Yurkhanov Base module for Magento 2</b></h2>
+                            <sub><b>* All Roman Yurkhanov modules requires this module.</b></sub><br /><br /><br />
+                            Please take a look at my other modules: <br />
+                            <ul>
+                                <li><a href="https://github.com/Roma-Roman/magento-2-Roman-Yurkhanov-modal" title="RomanYurkhanov Modal for Magento 2" target="_blank"><b>RomanYurkhanov Modal for Magento 2</b></a></li>
+                            </ul>
+                            <br />
+                            For more info - <a href="https://www.linkedin.com/in/roman-yurkhanov-322035122/" title="contact the author" target="_blank">contact the author</a><br /><br />
+                        ]]>
+                    </comment>
+                </field>
+            </group>
+        </section>
     </system>
 </config>
