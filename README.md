@@ -6,8 +6,7 @@
 
 ## Extension Screenshots
 <img width="1792" alt="Screenshot 2023-08-09 at 15 46 04" src="https://github.com/Roma-Roman/magento-2-Roman-Yurkhanov-base/assets/14273213/ee89c1ee-53f0-4a00-bc51-99979061940d">
-<img width="1792" alt="Screenshot 2023-08-09 at 15 46 45" src="https://github.com/Roma-Roman/magento-2-Roman-Yurkhanov-base/assets/14273213/f6758155-6c7d-4a40-9d4c-60417ef1cb98">
-
+<img width="1792" alt="Screenshot 2024-09-23 at 15 15 16" src="https://github.com/user-attachments/assets/d7e6fed5-d6ae-4e1f-b8ff-bf0d09802fa9">
 
 ## How to install & upgrade RomanYurkhanov_Base
 
