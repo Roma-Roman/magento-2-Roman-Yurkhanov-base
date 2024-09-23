@@ -15,7 +15,7 @@
         <tab id="romanyurkhanov" sortOrder="8" translate="label" class="romanyurkhanov-configtab">
             <label>Roman Yurkhanov</label>
         </tab>
-        <section id="romanyurkhanov" translate="label" type="text" sortOrder="320" showInDefault="1" showInWebsite="1" showInStore="1">
+        <section id="romanyurkhanov" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Base - Information</label>
             <tab>romanyurkhanov</tab>
             <class>item-icon-tab information</class>
@@ -32,6 +32,7 @@
                             <ul>
                                 <li><a href="https://github.com/Roma-Roman/magento-2-Roman-Yurkhanov-modal" title="RomanYurkhanov Modal for Magento 2" target="_blank"><b>RomanYurkhanov Modal for Magento 2</b></a></li>
                                 <li><a href="https://github.com/Roma-Roman/magento-2-Roman-Yurkhanov-checkout" title="RomanYurkhanov Checkout for Magento 2" target="_blank"><b>RomanYurkhanov Checkout for Magento 2</b></a></li>
+                                <li><a href="https://github.com/Roma-Roman/magento-2-Roman-Yurkhanov-dealer" title="RomanYurkhanov Dealer for Magento 2" target="_blank"><b>RomanYurkhanov Dealer for Magento 2</b></a></li>
                             </ul>
                             <br />
                             For more info - <a href="https://www.linkedin.com/in/roman-yurkhanov-322035122/" title="contact the author" target="_blank">contact the author</a><br /><br />
